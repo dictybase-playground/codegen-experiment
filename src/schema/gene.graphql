@@ -1,0 +1,32 @@
+type Gene {
+  id: String!
+  name: String!
+  goas: [GOAnnotation!]
+  strains: [Strain!]
+}
+
+type GOAnnotation {
+  id: String!
+  type: String!
+  date: String!
+  evidence_code: String!
+  go_term: String!
+  qualifier: String!
+  publication: String!
+  with: [With!]
+  extensions: [Extension!]
+  assigned_by: String!
+}
+
+type With {
+  id: String!
+  db: String!
+  name: String!
+}
+
+type Extension {
+  id: String!
+  db: String!
+  relation: String!
+  name: String!
+}
