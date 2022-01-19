@@ -1,0 +1,8 @@
+query UserByEmail($email: String!) {
+  userByEmail(email: $email) {
+    id
+    username
+    email
+    is_active
+  }
+}

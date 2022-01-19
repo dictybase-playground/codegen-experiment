@@ -1,0 +1,8 @@
+type User {
+  id: ID!
+  email: String!
+  username: String!
+  password: String
+  is_active: Boolean!
+  provider: String
+}
