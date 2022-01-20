@@ -1154,6 +1154,11 @@
   dependencies:
     "@octokit/openapi-types" "^11.2.0"
 
+"@reasonml-community/graphql-ppx@^1.2.2":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@reasonml-community/graphql-ppx/-/graphql-ppx-1.2.2.tgz#c8e07f8d826782219da1ddb7b2c01202bb343690"
+  integrity sha512-mgkETKdZ2QM1Xqlsg7nb30KaM7ojDpxy1rWdiZE5XLaA+oJgClMxA6ghF2b3TZL5f/XdQJ1rnd0p4LmXKnmpqQ==
+
 "@samverschueren/stream-to-observable@^0.3.0":
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/@samverschueren/stream-to-observable/-/stream-to-observable-0.3.1.tgz#a21117b19ee9be70c379ec1877537ef2e1c63301"
